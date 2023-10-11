@@ -3,7 +3,7 @@
 From the [flashbots mempool dumpster](https://mempool-dumpster.flashbots.net/index.html) 2023-09-01.parquet data set
 
 
-## The most called functions are...
+## The 10 most called functions are...
 
 We have sorted the 10 most called function signatures, matched them to their (assumed) function name and graphed it:
 - **1**: No function selector ("") called `354,661` times.
@@ -16,11 +16,11 @@ We have sorted the 10 most called function signatures, matched them to their (as
 - **8**: `depositTransaction(address,uint256,uint64,bool,bytes)` (0xe9e05c42) called `9,034` times.
 - **9**: `swapExactETHForTokensSupportingFeeOnTransferTokens(uint256,address[],address,uint256)` (0xb6f9de95) called `8,438` times.
 - **10**: `swapExactTokensForETHSupportingFeeOnTransferTokens(uint256,uint256,address[],address,uint256)` (0x791ac947) called `7,726` times.
-![function_names_plot.png](attachment:8dce0cf6-331e-4bab-ad21-33efe6bd2349.png)
 
 
 ![function_names](/data/img/function_names_plot.png)
 
+<br>
 
 ## The 10 most called addresses are...
 
@@ -40,7 +40,7 @@ We have sorted the 10 most called function signatures, matched them to their (as
 
 
 
-### Sources
+#### Sources
 - [flashbots mempool dumpster](https://mempool-dumpster.flashbots.net/index.html)
 - [paradigm-data-portal](https://github.com/paradigmxyz/paradigm-data-portal/tree/main)
 - [data.paradigm.xyz](https://data.paradigm.xyz)
