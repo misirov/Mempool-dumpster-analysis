@@ -1,11 +1,7 @@
-# Analayzing mempool-dumpster data
+# Analayzing mempool dumpster data
 
-- Sources:
- - [paradigm-data-portal](https://github.com/paradigmxyz/paradigm-data-portal/tree/main)
- - [data.paradigm.xyz](https://data.paradigm.xyz)
- - [etk-4byte](https://github.com/quilt/etk/tree/master/etk-4byte)
- - [4byte.directory](https://www.4byte.directory/)
- - [flashbots mempool dumpster](https://mempool-dumpster.flashbots.net/index.html)
+From the [flashbots mempool dumpster](https://mempool-dumpster.flashbots.net/index.html) 2023-09-01.parquet data set
+
 
 ## The most called functions are...
 
@@ -40,3 +36,13 @@ We have sorted the 10 most called function signatures, matched them to their (as
 - **10**: `Binance 14` (0x28c6c06298d514db089934071355e5743bf21d60) called `7,120` times
 
 ![ten_addresses.png](./data/img/ten_addresses.png)
+
+
+
+
+### Sources
+- [flashbots mempool dumpster](https://mempool-dumpster.flashbots.net/index.html)
+- [paradigm-data-portal](https://github.com/paradigmxyz/paradigm-data-portal/tree/main)
+- [data.paradigm.xyz](https://data.paradigm.xyz)
+- [etk-4byte](https://github.com/quilt/etk/tree/master/etk-4byte)
+- [4byte.directory](https://www.4byte.directory/)
